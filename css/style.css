@@ -112,10 +112,22 @@ img{
     text-decoration: none;
 }
 
+.opr{
+    color: #222;
+}
+
+.opr a:hover{
+    text-decoration: none;
+}
+.opr a{
+    color: #222;
+}
 .top-nav{
     padding: 0;
     margin: 5px 0;
-    list-style: none;
+    list-style-type: none;
+    display: inline-block;
+    float: right;
 }
 
 .top-nav li {
@@ -159,7 +171,6 @@ img{
 
 .content-dark{
     background: #ffffff;
-    border: 2px solid #196617;
     border-radius: 10px;
     padding: 0;
     text-align: center;

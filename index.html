@@ -3,27 +3,30 @@
 
 <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
 <head>
-    <meta charset="utf-8">
+	<meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-	
-	   <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-<meta name="author" content="admin@blog9ja.com" />   
-<meta name="description" content="Blog9ja - Login,Post,Comment,Share,Earn !"/>
-<meta property="og:title" content="Blog9ja - Login,Post,Comment,Share,Earn !"/>
-<meta property="og:site_name" content="Blog9ja - Login,Post,Comment,Share,Earn !"/>
-<meta property="og:description" content="Blog9ja - Login,Post,Comment,Share,Earn !"/>
-<meta property="og:image" content="info/newsimages/default.jpg"/>
-<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<meta name="author" content="admin@oprextra.com" />   
+	<meta name="description" content="Oprextra - Read,post,Comment,Share,Earn !"/>
+	<meta property="og:title" content="Oprextra - Read,post,,Comment,Share,Earn !"/>
+	<meta property="og:site_name" content="Oprextra - Read,post,,Comment,Share,Earn !"/>
+	<meta property="og:description" content="Oprextra - Read,post,,Comment,Share,Earn !"/>
+	<meta property="og:image" content="info/newsimages/default.jpg"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Blog9ja - Login,Post,Comment,Share,Earn !</title>
+    <title>Oprextra - Read post, share and earn money !</title>
     <link rel="icon" type="image/png" href="info/sitefront/img/favicon.png">
     <link rel="icon" sizes="192x192" href="info/android-icon.png">
     <!--link href="../maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">   
-    <!--cllink rel="stylesheet" href="../cdnjs.cloudflare.com/ajax/libs/datepicker/0.6.5/datepicker.min.css" /--> 
-    <link rel="stylesheet" href="css/style.css">
+    <!--link rel="stylesheet" href="../cdnjs.cloudflare.com/ajax/libs/datepicker/0.6.5/datepicker.min.css" / --> 
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/opr.css">
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/responsive.css">
 	<link rel="stylesheet" href="css/font-awesome/css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/offcanvas.min.css">
+	<link rel="stylesheet" href="css/owl.carousel.css">
+	<link rel="stylesheet" href="css/owl.theme.default.min.css">
         <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -32,7 +35,7 @@
     <![endif]-->
  
 </head>
-<body>
+<body id="page-top" data-spy="scroll" data-target=".navbar">
 <!-- Load Facebook SDK for JavaScript -->
   <div id="fb-root"></div>
   <script>(function(d, s, id) {
@@ -42,52 +45,97 @@
     js.src = "https://connect.facebook.net/en_US/sdk.js#xfbml=1";
     fjs.parentNode.insertBefore(js, fjs);
   }(document, 'script', 'facebook-jssdk'));</script>
-<div class="container">
-    <header>
-                <div class="content-dark">
-            <div class="header">
-			<div id="logo">
-<a href="info" class="standard-logo">
-<img src="info/images/logo.png" alt="Logo" >
-</a>
+<section id="header_section_wrapper" class="header_section_wrapper">
+    <div class="container">
+        <div class="header-section">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="left_section">
+                        <!-- Time -->
+                        <div class="social">
+                            <a class="icons-sm fb-ic"><i class="fa fa-facebook"></i></a>
+                            <!--Twitter-->
+                            <a class="icons-sm tw-ic"><i class="fa fa-twitter"></i></a>
+                            <!--Instagram-->
+                            <a class="icons-sm inst-ic"><i class="fa fa-instagram"> </i></a>
+                        </div>
+                        <!-- Top Social Section -->
+                    </div>
+                    <!-- Left Header Section -->
+                </div>
+                <div class="col-md-4">
+                    <div class="logo">
+                        <h1>Oprextra</h1>
+                    </div>
+                    <!-- Logo Section -->
+                </div>
+                <div class="col-md-4">
+                    <div class="right_section">
+                        <ul class="nav navbar-nav">
+                            <li><a href="#">Login</a></li>
+                            <li><a href="#">Register</a></li>
+                        </ul>
+                        <!-- Language Section -->
 
-</div><!-- #logo end >
-                <div class="site-title"><a href="index.html" rel="home">BLOG9JA</a></div-->
-                <ul class="top-nav">  
- <li>Welcome ,<b>Guest</b></li>
-<li><a href="info/users/index.php">Login </a></li>
-<li><a href="info/SignUp">Register</a></li>
-	
-<li><a href="info/users/index.php"><b>Contact Us</b></a></li>
-<li><a href="info/SignUp">Testimonies</a></li>			
-<li><a href="info/pincode">Buy PIN CODE</a></li>			
-                                
-                                    </ul>
-                <h4><strong>Stats:</strong>
- <font color='blue'>19,131 </font> members,
- <font color='blue'>561</font> &nbsp;Posts
- <strong>Date:</strong> Friday, 14 September 2018 </h4>
-                <div class="container-search">
-                  
-  <form action="info/search" method="post" accept-charset="UTF-8">
-                                <input type="text" name="search" class="form-control" value="" placeholder="Type &amp; Click Search..">
-								 <button class="btn-default"><i class="fa fa-search"></i>Search </button>    
-                            </form>                    
+                        <ul class="nav-cta hidden-xs">
+                            <li class="dropdown"><a href="#" data-toggle="dropdown" class="dropdown-toggle"><i
+                                    class="fa fa-search"></i></a>
+                                <ul class="dropdown-menu">
+                                    <li>
+                                        <div class="head-search">
+                                            <form role="form">
+                                                <!-- Input Group -->
+                                                <div class="input-group">
+                                                    <input type="text" class="form-control"
+                                                           placeholder="Search"> <span class="input-group-btn">
+                                                            <button class="btn-default">Search</button>
+                                                                        </span></div>
+                                            </form>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <!-- Search Section -->
+                    </div>
+                    <!-- Right Header Section -->
                 </div>
             </div>
         </div>
-        <nav class="main-navbar">
-            <div class="content-dark">
-                <ul class="main-navigation">
-              <li><a href="info">Home</a></li>
-<li><a  href="info/entertainment"><div>Entertainment</div></a></li><li class=""><a href="info/subcat/worldcup"><div>World Cup</div></a></li><li><a  href="info/Lifestyle"><div>Lifestyle</div></a></li><li><a  href="info/Music"><div>Music</div></a></li><li><a  href="info/Sports"><div>Sports</div></a></li><li><a  href="info/Events"><div>Events</div></a></li><li class=""><a href="info/subcat/local"><div>local scene</div></a></li><li><a  href="info/International"><div>International</div></a></li><li><a  href="info/Business"><div>Business</div></a></li><li><a  href="info/celebrities"><div>Celebrities</div></a></li><li><a  href="info/Trending"><div>Trending</div></a></li><li><a  href="info/Relationship-matters"><div>Relationship matters</div></a></li><li><a  href="info/tech"><div>Technology</div></a></li><li><a  href="info/Politics"><div>Politics</div></a></li><li><a  href="info/must-read"><div>Must Read</div></a></li><li><a  href="info/gists"><div>Gist</div></a></li><li><a  href="info/Update"><div>Update</div></a></li><li><a  href="info/Knowledgebase"><div>Knowledgebase</div></a></li><li><a  href="info/Forum"><div><b><font color='orange'>++ forum ++</font></b></div></a></li>	
+        <!-- Header Section -->
 
-                                                                                          
-                </ul>
-               
-            </div>
-        </nav>
-	<!-- End of include header.php-->	
+        <div class="navigation-section">
+            <nav class="navbar m-menu navbar-default">
+                <div class="container">
+                    <!-- Brand and toggle get grouped for better mobile display -->
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                                data-target="#navbar-collapse-1"><span class="sr-only">Toggle navigation</span> <span
+                                class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span>
+                        </button>
+                    </div>
+                    <!-- Collect the nav links, forms, and other content for toggling -->
+                    <div class="collapse navbar-collapse" id="#navbar-collapse-1">
+                        <ul class="nav navbar-nav main-nav">
+                            <li class="active"><a href="index.html">Breaking News</a></li>
+                            <li><a href="blog.html">Trending</a></li>
+                            <li><a href="blog.html">Entertainment</a></li>
+                            <li><a href="blog.html">Lastest Post</a></li>
+							<li><a href="blog.html">Design</a></li>
+							<li><a href="blog.html">Oprextra Income</a></li>
+                        </ul>
+                    </div>
+                    <!-- .navbar-collapse -->
+                </div>
+                <!-- .container -->
+            </nav>
+            <!-- .nav -->
+        </div>
+        <!-- .navigation-section -->
+    </div>
+    <!-- .container -->
+</section>
+<!-- header_section_wrapper -->
 
         <div class="content-dark">
           <!--a href="c.jumia.io/?a=102624&c=344&p=r&E=kkYNyk2M4sk%3d&utm_source=cake&utm_medium=affiliation&utm_campaign=102624&utm_term=">
@@ -925,50 +973,70 @@ Transformer Vandal Caught In Ilorin, Kwara State
 
  
 
- <footer>
-            <a id="back-to-top" href="javascript:void(0)" class="back-top"><i class="fa fa-angle-up"></i></a>
+<section id="footer_section" class="footer_section">
+    <div class="container">
+        <hr class="footer-top">
+        <div class="row">
+            <div class="col-md-3">
+                <div class="footer_widget_title"><h3><a href="category.html" target="_self">Oprextra</a></h3></div>
+                <div class="logo footer-logo">
+                    <a title="fontanero" href="index.html">
+                        
+                    </a>
 
-            <div class="content-dark text-center">
-                <div class="online-stats">
-                    <h4><strong>Place Your advert here. Call Phone:(234) 703 868 7380 (available 9am- 6pm WAT)</strong></h4>
-                   
+                    <p>Competently conceptualize go forward testing procedures and B2B expertise. Phosfluorescently
+                        cultivate principle-centered methods.of empowerment through fully researched.</p>
                 </div>
             </div>
-
-            <div class="content-dark">
-                <ul class="footer-menu">
-                  <li><a href="info/article/11470">About us</a></li>
-                  <li><a href="info/article/11471">Contact us</a></li>
-                  <li><a href="#">Advertise with us</a></li>
-           
-                  <li><a href="info/article/11091">Frequently Asked Questions</a></li>
-                  <li><a href="info/article/11473">DCMA Removal</a></li>
-                  <li><a href="info/Reviews">Reviews</a></li>
-                  <li><a href="info/article/11472">Blog9ja disclaimer</a></li>
-                  <li><a href="info/article/3">Income disclaimer</a></li>
-                  <li><a href="info/article/9489">Guidelines</a></li>
-				  	<div class="col_half">
-						
-						<div class="copyright-links"><a href="info/article/10015">Terms of Use</a> / <a href="policy.php">Privacy Policy</a></div>
-					</div>
-                                                            </ul>
-                <div class="copyright">
-                    <p>&copy; 2018 - Blog9ja - Login,Post,Comment,Share,Earn ! - All right Reserved<br> Powered By Guaranty Gold Multi- services Company Limited &reg;  RC 2454848</p>
-					<p><strong>Blog9ja</strong> 
-								 is a premium blogging platform that lets you post,comment and share and  earn  money for it. <br>
-								 No matter who you are
-								 – a blogger,student,housewife,
-								 Dad,youth,employed or unemployed – 
-								 our hard working team will save a seat for all of you to join us in our 
-								fun journey.</p>
+            <div class="col-md-3">
+                <div class="footer_widget_title">
+                    <h3><a href="category.html" target="_self">Discover</a></h3>
+                </div>
+                <div class="row">
+                    <div class="col-xs-4">
+                        <ul class="list-unstyled left">
+                                <li class="active"><a href="index.html">Breaking News</a></li>
+                                <li><a href="blog.html">Trending</a></li>
+                                <li><a href="blog.html">Entertainment</a></li>
+                                <li><a href="blog.html">Lastest Post</a></li>
+                                <li><a href="blog.html">Design</a></li>
+                        </ul>
+                    </div>
                 </div>
             </div>
-        </footer>
+        </div>
     </div>
+
+    <div class="footer_bottom_Section">
+        <div class="container">
+            <div class="row">
+                <div class="footer">
+                    <div class="col-sm-3">
+                        <div class="social">
+                            <a class="icons-sm fb-ic"><i class="fa fa-facebook"></i></a>
+                            <!--Twitter-->
+                            <a class="icons-sm tw-ic"><i class="fa fa-twitter"></i></a>
+                            <!--Instagram-->
+                            <a class="icons-sm inst-ic"><i class="fa fa-instagram"> </i></a>
+                        </div>
+                    </div>
+                    <div class="col-sm-12">
+                        <p>&copy; Copyright 2018 - Oprextra</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+   </div>
 </div>
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <script type="text/javascript" src="js/jquery.min.js"></script>
 <script src="js/jquery.smooth-scroll.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/mobile-menu.js"></script>
+<script src="js/owl.carousel.min.js"></script>
+<script src="js/script.js"></script>
 
 
 </body>
