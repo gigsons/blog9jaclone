@@ -38,6 +38,8 @@ crossorigin="anonymous">
     <link rel="stylesheet" href="vendor/animsition/css/animsition.min.css">
     <link rel="stylesheet" href="vendor/select2/select2.min.css">	
     <link rel="stylesheet" href="vendor/daterangepicker/daterangepicker.css">
+    <script src="https://apis.google.com/js/platform.js" async defer></script>
+
         <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -135,7 +137,7 @@ crossorigin="anonymous">
                                         <i class="fa fa-facebook-f" aria-hidden="true"></i>
                                     </a>
             
-                                    <a href="#" class="login100-form-social-item flex-c-m bg2 m-r-5">
+                                    <a href="" class="login100-form-social-item flex-c-m bg2 m-r-5" onclick="onSignIn()">
                                         <i class="fa fa-google" aria-hidden="true"></i>
                                     </a>
                                 </div>
@@ -146,6 +148,17 @@ crossorigin="anonymous">
                         </div>
                     </div>
                 </div>
+                
+                <script>
+                    function onSignIn(googleUser) {
+                    var profile = googleUser.getBasicProfile();
+                    console.log('ID: ' + profile.getId()); // Do not send to your backend! Use an ID token instead.
+                    console.log('Name: ' + profile.getName());
+                    console.log('Image URL: ' + profile.getImageUrl());
+                    console.log('Email: ' + profile.getEmail()); // This is null if the 'email' scope is not present.
+                    }
+
+                </script>
                 
                 <script src="vendor/jquery/jquery-3.2.1.min.js"></script>
                 <script src="vendor/animsition/js/animsition.min.js"></script>
