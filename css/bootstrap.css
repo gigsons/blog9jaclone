@@ -1,4 +1,4 @@
-html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;}
+html{font-family: 'Montserrat', sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;}
 body{margin:0;}
 article,
 aside,
@@ -240,7 +240,7 @@ a.text-primary:hover,
 a.text-primary:focus{color:#286090;}
 .text-success{color:#3c763d;}
 a.text-success:hover,
-a.text-success:focus{color:#2b542c;}
+a.text-success:focus{color:#5f6d5f;}
 .text-info{color:#31708f;}
 a.text-info:hover,
 a.text-info:focus{color:#245269;}

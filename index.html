@@ -17,11 +17,12 @@
     <title>Oprextra - Read post, share and earn money !</title>
     <link rel="icon" type="image/png" href="info/sitefront/img/favicon.png">
     <link rel="icon" sizes="192x192" href="info/android-icon.png">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
 crossorigin="anonymous">
-    <!--link rel="stylesheet" href="../cdnjs.cloudflare.com/ajax/libs/datepicker/0.6.5/datepicker.min.css" / --> 
+<!--link rel="stylesheet" href="../cdnjs.cloudflare.com/ajax/libs/datepicker/0.6.5/datepicker.min.css" / --> 
 	<link rel="stylesheet" href="css/style.css">
-	<link rel="stylesheet" href="css/opr.css">
+    <link rel="stylesheet" href="css/opr.css">
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/responsive.css">
 	<link rel="stylesheet" href="css/font-awesome/css/font-awesome.min.css">
@@ -47,6 +48,7 @@ crossorigin="anonymous">
     js.src = "https://connect.facebook.net/en_US/sdk.js#xfbml=1";
     fjs.parentNode.insertBefore(js, fjs);
   }(document, 'script', 'facebook-jssdk'));</script>
+  
 <section id="header_section_wrapper" class="header_section_wrapper">
     <div class="container">
         <div class="header-section">
@@ -65,7 +67,7 @@ crossorigin="anonymous">
                     </div>
                     <!-- Left Header Section -->
                 </div>
-                <div class="col-md-4">
+                <div class="nav col-md-4">
                     <div class="logo">
                         <a href="index.html" style="color: #222; text-decoration: none;"><h1>Oprextra</h1></a>
                     </div>
@@ -147,11 +149,11 @@ crossorigin="anonymous">
 
     <div class="container">
         
-            <div class="col content-middle col-75">
+            <div class="col-md-12">
         <div class="content-dark">
-            <h4 class="page-title">Featured Posts</h4>
+            <h3 class="text-center page-title">Featured Posts</h3>
             <div class="content-light">
-                <a href="#most-viewed" class="btn-lp" rel="scroll">Jump To Most Viewed Posts</a>
+                <!--<a href="#most-viewed" class="btn-lp" rel="scroll">Jump To Most Viewed Posts</a>-->
                  <ul class="forum-cat">
 				 
 				              <li>
@@ -802,8 +804,8 @@ crossorigin="anonymous">
 <div class='paginate'><span class='disabled'>previous</span><span class='current' class="btn btn-info btn-md">1</span><a href='?page=2' class="btn btn-success btn-md">2</a>&nbsp;&nbsp;<a href='?page=3' class="btn btn-success btn-md">3</a>&nbsp;&nbsp;<a href='?page=4' class="btn btn-success btn-md">4</a>&nbsp;&nbsp;<a href='?page=5' class="btn btn-success btn-md">5</a>&nbsp;&nbsp;<a href='?page=6' class="btn btn-success btn-md">6</a>&nbsp;&nbsp;<a href='?page=7' class="btn btn-success btn-md">7</a>&nbsp;&nbsp;<a href='?page=8' class="btn btn-success btn-md">8</a>&nbsp;&nbsp;<a href='?page=9' class="btn btn-success btn-md">9</a>&nbsp;&nbsp;...<a href='?page=14' class="btn btn-success btn-md">14</a><a href='?page=15' class="btn btn-success btn-md">15</a><a href='?page=2' class="btn btn-success btn-md">next</a></div>   <hr>
 
 <a href="uuuuuuu" target="_blank">
-<div class="ad" style="border: 1px #31a931 solid; margin-bottom:15px; width: 100%;" >
-<img src="info/addimages/201805030541343285levcon_advirtisement.jpg" style="width:100%;">
+<hr style="border: 2px solid #222222;" />
+<!--<img src="info/addimages/201805030541343285levcon_advirtisement.jpg" style="width:100%;">-->
 </div>
 </a>
    
@@ -813,8 +815,8 @@ crossorigin="anonymous">
             </div>
 
          
-
-            <h4>Most Read Headlines</h4>
+<div class="text-center">
+            <h3>Most Read Headlines</h3>
 
             <div class="content-light headlines" id="most-viewed">
                 <ul>
@@ -921,7 +923,8 @@ Transformer Vandal Caught In Ilorin, Kwara State
   
 
                                      
-									 </ul>
+                                     </ul>
+                                     </div>
 
 
                
@@ -947,26 +950,25 @@ Transformer Vandal Caught In Ilorin, Kwara State
 </aside>  
 
                 
-            <aside class="col col-30 sidebar sidebar-right">
+           <!-- <aside class="col col-30 sidebar sidebar-right">
     <div class="content-dark">
-        <h4>Sponsored</h4>
-                                                                                                    <div class="widget">
+        <h4>Sponsored</h4>                                                                                              <div class="widget">
 <a href="wqwqwqw" target="_blank">
 <div class="ad" style="border: 1px #31a931 solid; margin-bottom:15px; width: 100%;" >
 <img src="info/addimages/201803192305353741levcon_advirtisement.png"  style="width:100%;">
 </div>
 </a>
+
   
                         </div>
                         <br>
                                                                                                                                 <div class="widget">
-                         <!--a href="https://blogsng.com/" target="_blank">
-<img src="#" /></a-->
+                         
                         </div>
                         <br>
                                                         
     </div>
-</aside>  
+</aside>-->
                 
      </div>    
 <!--end of index.php-->
@@ -975,7 +977,7 @@ Transformer Vandal Caught In Ilorin, Kwara State
 
  
 
-<section id="footer_section" class="footer_section">
+<footer id="footer_section" class="footer_section">
     <div class="container">
         <hr class="footer-top">
         <div class="row">
@@ -1029,7 +1031,7 @@ Transformer Vandal Caught In Ilorin, Kwara State
             </div>
         </div>
     </div>
-</section>
+</footer>
    </div>
 </div>
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->

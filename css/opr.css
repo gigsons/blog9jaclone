@@ -1,48 +1,5 @@
-/*
-/*
-Template Name: Tech News
-Description: HTML5 / CSS3 One Page
-Version: 1.0
-Author: uiCookies.com
-*/
-
-
-/*------------------------------------------------------------------
-[Table of contents]
-
-1. Header
-    - left
-           - date
-           - year
-        - middle
-       - logo	
-        - right
-           - share
-           - language dropdown
-
-
-           
-
-    font-family: 'PT Serif', serif;
-
-    font-family: 'Bangers', cursive;
-
-    font-family: 'Vidaloka', serif;
-
-    font-family: 'Limelight', cursive;
-
-
-           
-# [Color codes]
-
-# Body  (text): #888
-# Heading Color #0E1555
-# Theme Color (link color) #FD367E
-# Mid grey (sub header) #666666
-# -------------------------------------------------------------------*/
-
 body {
-    font-family: 'Roboto', serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 13px;
     line-height: 21px;
     color: #7d7d7d;
@@ -60,7 +17,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: 'Roboto', serif;
+    font-family: 'Montserrat', sans-serif;
     color: #000;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -551,8 +508,6 @@ section {
     left: auto;
 }
 
-.m-menu .m-menu-content {}
-
 .m-menu .dropdown.m-menu-fw .dropdown-menu {
     left: 0;
     right: 30px;
@@ -607,7 +562,6 @@ section {
 
 /*uc-mobile-menu*/
 
-.uc-mobile-menu {}
 
 .uc-mobile-menu-container > div {
     visibility: hidden;
